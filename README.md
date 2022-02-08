@@ -1,12 +1,8 @@
-# (Application Name)
+# Dino Ipsum Hangman Game
 
-#### (Brief Description of Application)
+#### Hangman game utilizing dinosaur API for word bank
 
-#### By (Your Name Here)
-
-### _Link to GitHub Repository_
-
-- LINK
+#### By Ryan Spencer & Mikah Mathews
 
 ## Technologies Used
 
@@ -22,6 +18,8 @@
 - _jQuery_
 
 ## Description
+
+_Basic hangman game which pulls words from a dinosaur API_
 
 ## Setup/Installation Requirements
 
@@ -69,12 +67,12 @@
 
 ### License
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Copyright (C) 2022 Ryan Spencer. All Rights Reserved.
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Copyright (C) 2022 Ryan Spencer & Mikah Mathews. All Rights Reserved.
 
 ```
 MIT License
 
-Copyright (c) 2022 Ryan Spencer.
+Copyright (c) 2022 Ryan Spencer & Mikah Mathews.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
 documentation files (the "Software"), to deal in the Software without restriction, including without
