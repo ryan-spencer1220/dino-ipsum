@@ -13,7 +13,6 @@ $(document).ready(function () {
       $(".randomDino").text(myDino);
       //$(".correctLetters").text(); make an empty array with length of generated dinosaur word letters
       // createdArray = ["_","_","_","_","_","_","_","_","_","_","_","_","_"]
-      // put all of this outside click, runs on load
     });
   });
 });

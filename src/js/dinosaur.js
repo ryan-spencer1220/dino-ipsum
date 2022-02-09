@@ -34,6 +34,6 @@ export default class Dinosaur {
       }
     }
     return instancePositions;
-    // Output: [2, 8]
+    // Output: [2, 8] :)
   }
 }
