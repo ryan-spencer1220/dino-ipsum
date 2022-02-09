@@ -6,16 +6,14 @@ import Dinosaur from "./js/dinosaur.js";
 
 $(document).ready(function () {
   $("#submit").click(function () {
-    var getDinos = $.get(
-        "https://dinoipsum.com/api/?format=html&paragraphs=1&words=1"
-      ),
-      fillContainer = function (html) {
-        $(".randomDino").html(html);
-      },
-      oops = function () {
-        console.log("Where did all the dinosaurs go?");
-      };
-
-    getDinos.then(fillContainer, oops);
+    let promise = Dinosaur.getWord();
+    promise.then(function (response) {
+      const data = JSON.parse(response);
+      let myDino = data[0][0].split("");
+      $(".randomDino").text(myDino);
+      //$(".correctLetters").text(); make an empty array with length of generated dinosaur word letters
+      // createdArray = ["_","_","_","_","_","_","_","_","_","_","_","_","_"]
+      // put all of this outside click, runs on load
+    });
   });
 });
